@@ -10,8 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    background-image: linear-gradient(to right, rgb(223, 242, 255), white, rgb(255, 255, 255),white, rgb(223, 249, 255));
+    font-family: Verdana, sans-serif, Tahoma, sans-serif;
 }
 
 .gif {
@@ -21,8 +22,13 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
-    color: #e94d58;
+    font-size: 1.4em;
+    background-color: rgb(192, 227, 255);
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border: 2px solid #000000;
+    width: 308px;
+    border-radius: 100px;
+    color: black;
     margin: 15px 0;
 }
 .btn-group {
@@ -30,27 +36,27 @@ h2 {
     height: 50px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 button {
     position: absolute;
     width: 150px;
     height: inherit;
-    color: white;
+    color: black;
     font-size: 1.2em;
     border-radius: 30px;
     outline: none;
     cursor: pointer;
-    box-shadow: 0 2px 4px gray;
-    border: 2px solid #e94d58;
-    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border: 2px solid #000000;
+    font-size: 1.3em;
 }
 button:nth-child(1) {
     margin-left: -200px;
-    background: #e94d58;
+    background: rgb(192, 227, 255);
 }
 button:nth-child(2) {
     margin-right: -200px;
-    background: white;
-    color: #e94d58;
+    background: rgb(192, 227, 255);
+    color: black
 }
